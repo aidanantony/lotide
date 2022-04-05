@@ -1,8 +1,11 @@
 const words = ["ground", "control", "to", "major", "tom"];
 const map = function(array,callback) {
-  console.log('array:', array)
-  console.log('callback:', callback)
   const results = []
+  for (let character of array) {
+    console.log('character before:', character)
+    console.log('character after:', callback(character))
+    console.log('---');
+  }
   return results
 };
 
