@@ -13,19 +13,19 @@ const assertEqual = require('./assertEqual');
 const assertArraysEqual = require('./assertArraysEqual');
 
 module.exports = {
-  head: head,
-  middle: middle,
-  tail: tail,
-  eqArrays: eqArrays,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findByKeyValue: findByKeyValue,
-  flatten: flatten,
-  map: map,
-  without: without,
-  eqObjects: eqObjects,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual
+  head,
+  middle,
+  tail,
+  eqArrays,
+  countLetters,
+  countOnly,
+  findByKeyValue,
+  flatten,
+  map,
+  without,
+  eqObjects,
+  assertEqual,
+  assertArraysEqual
 }
 
 /* Only the functions that I have testing files for our showing up in this object in Node REPL.
